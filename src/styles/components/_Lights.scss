@@ -1,0 +1,31 @@
+.light {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 0.5rem auto;
+}
+.red {
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 0.2rem solid rgba(255, 0, 0, 0.4);
+}
+.red__selected {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 2rem 1rem rgb(255, 0, 0);
+
+}
+.yellow {
+    background-color: rgba(251, 251, 1, 0.5);
+    border: 0.2rem solid rgba(251, 251, 1, 0.4);
+}
+.yellow__selected {
+    background-color: rgba(251, 251, 1);
+    box-shadow: 0 0 2rem 1rem rgba(251, 251, 1);
+}
+.green {
+    background-color: rgba(2, 255, 2, 0.5);
+    border: 0.2rem solid rgba(2, 255, 2, 0.4);
+}
+.green__selected {
+    background-color: rgb(2, 255, 2);
+    box-shadow: 0 0 2rem 1rem rgb(2, 255, 2);
+}
